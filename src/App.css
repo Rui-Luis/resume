@@ -5,7 +5,12 @@
 .Logo-top {
   margin: 1%;
   width: 5vh;
-  filter: invert(100%);}
+  filter: invert(100%);
+}
+
+.Download-button {
+  filter: invert(100%);
+}
 
 .Toolbar-style {
   justify-content: space-between;

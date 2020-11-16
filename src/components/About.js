@@ -17,7 +17,7 @@ function ComputerScience() {
         <ListItemIcon>
           <SchoolIcon />
         </ListItemIcon>
-        <Typography>Studying Computer Science at UoPeople</Typography>
+        <Typography>Computer Science <b>student</b></Typography>
       </ListItem>
     </div>
   );
@@ -44,7 +44,7 @@ function Bootcamp() {
           <SchoolIcon />
         </ListItemIcon>
         <Typography>
-          Studied Full-Stack Development at Academia de Código
+          Academia de Código
         </Typography>
       </ListItem>
     </div>
@@ -58,7 +58,7 @@ function Music() {
         <ListItemIcon>
           <MusicNoteIcon />
         </ListItemIcon>
-        <Typography>Musician and Producer at Music Forge</Typography>
+        <Typography>Producer at Music Forge</Typography>
       </ListItem>
     </div>
   );

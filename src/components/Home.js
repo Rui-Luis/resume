@@ -1,17 +1,23 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
-import { Typography } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
+import GetAppIcon from '@material-ui/icons/GetApp';
+import resume from "./Rui-Luis-Resume.pdf";
 
 function Home() {
   return (
     <div className="container" id="home">
       <Container className="Base-container">
-        <Typography variant="h1" component="h2">
+        <Typography variant="h1">
           Rui Luís
         </Typography>
-        <Typography variant="h2" component="h2">
-          Junior Full-Stack Developer
+        <Typography variant="h5">
+          Junior Developer
         </Typography>
+        <br/>
+        <Button href={resume} className="Download-button" variant="contained" size="small" startIcon={<GetAppIcon />}>
+          PDF
+        </Button>
       </Container>
     </div>
   );
