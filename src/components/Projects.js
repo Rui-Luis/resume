@@ -1,4 +1,4 @@
-import { Divider, List, ListItem, Typography } from "@material-ui/core";
+import { List, ListItem, Typography } from "@material-ui/core";
 import React from "react";
 
 function RuiLuisMe() {

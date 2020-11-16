@@ -4,7 +4,6 @@ import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";
 import {
-  Grid,
   List,
   ListItem,
   ListItemIcon,
