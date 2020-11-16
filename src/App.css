@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.Logo-top {
+  margin: 1%;
+  width: 5vh;
+  filter: invert(100%);
+  text-align: center;
+}
+
+.Toolbar-style {
+  justify-content: space-between;
+  background-color: darkslategray;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  opacity: 100%;
+  background-color: white;
+  align-items: center;
+  color: darkslategray;
+}
+.container-skills {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  opacity: 100%;
+  background-color: white;
+  align-items: center;
+  color: darkslategray;
+}
+
+.container-two {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  opacity: 100%;
+  align-items: center;
+  filter: invert(100%);
+}
+
+.container-contacts {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  opacity: 100%;
+  background-color: white;
+  align-items: center;
+  color: darkslategray;
+}
+
+.Toolbar-group {
+  filter: invert(100%);
+}
+
+.About-list {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.About-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 20vh;
+}
+
+.Projects-list {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.Projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 25vh;
+}
+
+.Skills-list {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 100%;
+  align-items: center;
+}
+
+.Skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 4vh;
+}
